@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/dusmel/.rvm/gems/ruby-2.5.3/bin:/Users/dusmel/.rvm/gems/ruby-2.5.3@global/bin:/Users/dusmel/.rvm/rubies/ruby-2.5.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dusmel/.rvm/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND github.com github.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^35.0.0",
+      "react": "16.8.3",
+      "react-dom": "16.8.3",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+      "react-native-web": "^0.11.7"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^7.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
